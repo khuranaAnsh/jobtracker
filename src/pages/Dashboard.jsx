@@ -4,6 +4,7 @@ import JobList from "../components/JobList";
 import FilterBar from "../components/FilterBar";
 import Stats from "../components/Stats";
 
+// Main dashboard which will be visible on home page
 function Dashboard() {
   const [jobs, setJobs] = useState([]);
   const [editingJob, setEditingJob] = useState(null);
