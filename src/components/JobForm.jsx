@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 
+// Job form for adding company, role, date and status
+
 function JobForm({ onAddJob, editingJob }) {
   const [formData, setFormData] = useState({
     company: "",
